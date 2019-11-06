@@ -10,5 +10,4 @@ WORKDIR  /var/www
 
 RUN npm install
 
-ENTRYPOINT npm start
-EXPOSE $PORT
+EXPOSE $PORT 
